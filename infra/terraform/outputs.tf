@@ -20,4 +20,3 @@ output "presigned_url_api_endpoint" {
   description = "API endpoint to generate presigned S3 upload URLs"
   value       = aws_apigatewayv2_api.presign_api.api_endpoint
 }
-#
