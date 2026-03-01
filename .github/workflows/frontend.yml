@@ -2,8 +2,6 @@ name: Deploy Frontend to S3 and Invalidate CloudFront
 
 on:
   push:
-    paths:
-      - "frontend/**"
     branches:
       - main
 
