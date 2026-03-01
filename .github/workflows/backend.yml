@@ -2,7 +2,7 @@ name: Deploy Backend Lambda
 
 on:
   push:
-    paths:
+
     branches:
       - main
   workflow_dispatch:
